@@ -10,6 +10,7 @@ web_scraping = function(){
   
   oni_data_scraping = data.frame(oni_data_scraping[[9]])
   oni_data_df = oni_data_scraping
+  n = length(oni_data_scraping$Year)
 
   row2delete = NULL
   for(i in 1:n){
